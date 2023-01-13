@@ -13,6 +13,7 @@ Download from YouTube playlist(s) and convert to MP3s.
 2. Performance enhancements utilzing concurrency (multiprocessing and/or threading) in certain parts of the code.
     * When checking if video is already downloaded or not against YT playlist?
     * When reverting prefix number from filename?
-3. Use pathlib to locate and load the config file? This really shouln't be an issue.
-    * Allow user to pass path of config file as argument in CLI.
-4. Current output using yaspin package looks a bit funky during runtime - sleep() issue?
+3. Right now it's using two folders approach to randomize+rename final files. Keeping the original downloads in <source> intact. Very optimized at this point because it destroys the <destination> folder (containing the 'final' files), re-create, and copies all MP3 files from <source> for operation.
+4. Use pathlib instead of os package to locate and load the config file? This really isn't an issue but nice to have.
+    * Allow user to pass path of config file as argument (argparse) in CLI.
+5. Current output using yaspin package looks a bit funky during runtime - sleep() issue?
