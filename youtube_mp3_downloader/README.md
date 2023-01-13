@@ -15,3 +15,4 @@ Download from YouTube playlist(s) and convert to MP3s.
     * When reverting prefix number from filename?
 3. Use pathlib to locate and load the config file? This really shouln't be an issue.
     * Allow user to pass path of config file as argument in CLI.
+4. Current output using yaspin package looks a bit funky during runtime - sleep() issue?
