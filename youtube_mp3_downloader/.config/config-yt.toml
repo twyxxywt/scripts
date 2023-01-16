@@ -1,0 +1,8 @@
+[yt_playlists]
+female = "https://youtube.com/playlist?list=*****"
+male = "https://youtube.com/playlist?list=*****"
+duet = "https://youtube.com/playlist?list=*****"
+
+[folders]
+download_convert = "/home/<USER>/downloads/mp3/"
+randomized = "/home/<USER>/downloads/mp3-randomized/"
